@@ -1,7 +1,10 @@
-img {
+ .elsokepek {
     height: 600px !important; 
 }
 p {
     text-align: justify;
     font-size: 16px;
+}
+.masodikkep {
+    width: 50%;
 }
