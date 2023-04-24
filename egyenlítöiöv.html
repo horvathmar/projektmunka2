@@ -1,84 +1,216 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Forró övezet - Egyenlítői öv</title>
-    <link rel="stylesheet" href="forróövezet.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="shortcut icon" href="https://2.bp.blogspot.com/-T5mQexFQ2_Y/WQByf-5-vxI/AAAAAAAAAuM/io1GWSYngsQC4F3G362wYC1CrR2SEIfPwCLcB/s1600/foldgomb01.png" type="image/x-icon">
-  </head>
-  <body>
-   <div class="container">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forró övezet - Egyenlítői öv</title>
+  <link rel="stylesheet" href="forróövezet.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="shortcut icon"
+    href="https://2.bp.blogspot.com/-T5mQexFQ2_Y/WQByf-5-vxI/AAAAAAAAAuM/io1GWSYngsQC4F3G362wYC1CrR2SEIfPwCLcB/s1600/foldgomb01.png"
+    type="image/x-icon">
+</head>
+
+<body>
+  <div class="container">
     <!-- carusel -->
     <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://cdn.erettsegi.com/wp-content/uploads/2020/09/ms0pk150log-1200x628.jpg" class="elsokepek d-block w-100" alt="Forró övezet első kép">
-          </div>
-          <div class="carousel-item">
-            <img src="https://cdn.pixabay.com/photo/2019/06/14/16/57/sunset-4274021_960_720.jpg" class="elsokepek d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="images/peru2.jpg" class="elsokepek d-block w-100" alt="...">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://cdn.erettsegi.com/wp-content/uploads/2020/09/ms0pk150log-1200x628.jpg"
+            class="elsokepek d-block w-100" alt="Forró övezet első kép">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.pixabay.com/photo/2019/06/14/16/57/sunset-4274021_960_720.jpg"
+            class="elsokepek d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/peru2.jpg" class="elsokepek d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="forróövezet.html">Forró övezet</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="egyenlítöiöv.html">Egyenlítői öv</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="átmenetiöv.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Átmeneti öv
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="átmenetiöv.html">Nedves szavanna</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="átmenetiöv.html">Száraz szavanna</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="átmenetiöv.html">Tüskés szavanna</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="térítőiöv.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Térítői öv
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="térítőiöv.html">Monszun vidék</a></li>
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <p>Itt a napsugarak beesési szöge 90°- 66,5° közötti, ezért a hőmérséklet viszonylag állandó, 25-27 °C között
+      változik. Az évi hőingás 2,5 °C-nál is kevesebb, így a napi hőingás nagyobb, mint az évi. Egész évben csapadékos,
+      a lehullott csapadék mennyisége a 2000 millimétert is meghaladja. Csak egy évszak alakul ki, a meleg, csapadékos
+      és fülledt nyár. Az Egyenlítő közelében alakult ki, jellemző az Amazonas-medencében, Közép-Amerika
+      szigetvilágában, a Kongó-medencében, Ceylon és Óceánia területein. Természetes növénytakarója az esőerdő.</p>
+    <div class="row">
+      <img class="amazonas img-fluid col-lg-3 col-md-4 col-sm-12" src="images/amazonas.jpg" alt="Amazonas medence" title="Amazonas-medence">
+      <img class="amazonas img-fluid col-lg-3 col-md-4 col-sm-12" src="images/karib.jpg " title="Közép-Amerika szigetvilága"
+        alt="Közép-Amerika szigetvilága">
+      <img class="amazonas img-fluid col-lg-3 col-md-4 col-sm-12" src="images/kongó.jpg" alt="Kongó-medence" title="Kongó-medence">
+      <img class="amazonas img-fluid col-lg-3 col-md-4 col-sm-12" src="images/oceania.jpg" alt="Óceánia" title="Óceánia">
+    </div>
+    <h1>Az egyenlítői öv élővilága</h1>
+    <div class="row">
+      <div class="col-lg-4 col-xl-4 col-xxl-3 col-md-6 col-sm-12">
+        <div class="card" style="width: 18rem;">
+          <img src="images/gorilla.jpg" class="cardkepek card-img-top" alt="A gorilla">
+          <div class="card-body">
+            <h2>A gorilla</h2>
+            <p class="card-text">A gorillák Afrikában honosak, a legnagyobb termetű emberszabású majmok. Családi
+              csoportokban élnek, a csoportot egy hatalmas, ezüstös hátú hím vezeti. Szinte kizárólag növényeket
+              fogyasztanak.</p>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-      <!-- nav -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="forróövezet.html">Forró övezet</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" href="egyenlítöiöv.html">Egyenlítői öv</a>
-                  </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="átmenetiöv.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Átmeneti öv
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="átmenetiöv.html">Nedves szavanna</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="átmenetiöv.html">Száraz szavanna</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="átmenetiöv.html">Tüskés szavanna</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="térítőiöv.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Térítői öv
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="térítőiöv.html">Monszun vidék</a></li>
-                </ul>
-              </li>
-              
-            </ul>
-           
+
+
+      <div class="col-lg-4 col-xl-4 col-xxl-3 col-md-6 col-sm-12">
+        <div class="card" style="width: 18rem;">
+          <img src="images/jaguár.jpg" class="cardkepek card-img-top" alt="A jaguár">
+          <div class="card-body">
+            <h2>A jaguár</h2>
+            <p class="card-text">A jaguár Dél-Amerika legnagyobb testű ragadozója. Teste hajlékony, ruganyos, látása,
+              hallása rendkívül éles. Párnás talpán gyorsan és nesztelenül jár, de kiválóan mászik fára is. Karmai
+              ujjpárnáiba visszahúzhatók, nem kopnak, ezért mindig éles és hegyes fegyverek maradnak. Bundája foltos
+              vagy egyszínű fekete lehet.</p>
           </div>
         </div>
-      </nav>
-      <p>Itt a napsugarak beesési szöge 90°- 66,5° közötti, ezért a hőmérséklet viszonylag állandó, 25-27 °C között változik. Az évi hőingás 2,5 °C-nál is kevesebb, így a napi hőingás nagyobb, mint az évi. Egész évben csapadékos, a lehullott csapadék mennyisége a 2000 millimétert is meghaladja. Csak egy évszak alakul ki, a meleg, csapadékos és fülledt nyár. Az Egyenlítő közelében alakult ki, jellemző az Amazonas-medencében, Közép-Amerika szigetvilágában, a Kongó-medencében, Ceylon és Óceánia területein. Természetes növénytakarója az esőerdő.</p>
-      <div class="row">
-        <img class="amazonas img-fluid col-lg-3 col-md-6 col-sm-12" src="images/amazonas.jpg" alt="">
-        <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="images/karib.jpg" alt="">
-        <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="images/kongó.jpg" alt="">
-        <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="images/oceania.jpg" alt="">
       </div>
+
+
+      <div class="col-lg-4 col-xl-4 col-xxl-3 col-md-6 col-sm-12">
+        <div class="card" style="width: 18rem;">
+          <img src="images/kolibri.jpg" class="cardkepek card-img-top" alt="A kolibrik">
+          <div class="card-body">
+            <h2>A kolibrik</h2>
+            <p class="card-text">A kolibrik Amerikában élnek. Apró termetűek, sokuk tollazata fémesen csillogó. A
+              virágok előtt rendkívül gyors szárnycsapásokkal egy helyben lebegnek, hosszú szívócsőrüket nagy
+              pontossággal nyújtják vagy szúrják a virágok kelyhébe, ahonnan kiszívják a cukros nedvet.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-xl-4 col-xxl-3 col-md-6 col-sm-12">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="images/papagaj.jpg"
+            class="cardkepek card-img-top" alt="A papagáj">
+          <div class="card-body">
+            <h2>A papagáj</h2>
+            <p class="card-text">A papagájok legtöbb faja Dél-Amerikában él. Csőrük erős kampóban végződik, amely alkalmas a keményebb magok feltörésére is. Lábaikkal és csőrük segítségével kapaszkodnak a fák ágain.</p>
+          </div>
+        </div>
+      </div>
+    
+
+      <div class="col-lg-4 col-xl-4 col-xxl-3 col-md-6 col-sm-12">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="https://pestihirlap.hu/wp-content/uploads/2021/07/12-also-Foto-BOURSEILLER-Philippe-hemis.fr-AFP--scaled.jpg"
+            class="cardkepek card-img-top" alt="A hárpia">
+          <div class="card-body">
+            <h2>A hárpia</h2>
+            <p class="card-text">A hárpia óriásfákra rakja fészkét, innen tart őrjáratot az esőerdő felett. Erős, kampós
+              csőre, hatalmas karmai félelmetes vadászszá teszik. Majmokat, lajhárokat, más madarakat zsákmányol.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-xl-4 col-xxl-3 col-md-6 col-sm-12">
+        <div class="card" style="width: 18rem;">
+          <img src="images/királykobra.jpg" class="cardkepek card-img-top" alt="A királykobra">
+          <div class="card-body">
+            <h2>A királykobra</h2>
+            <p class="card-text">A királykobra mérges kígyó, testhossza eléri az 5 métert. Más kígyókkal, rágcsálókkal
+              és madarakkal táplálkozik. Ázsia sűrű erdőségeiben él.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-xl-4 col-xxl-3 col-md-6 col-sm-12">
+        <div class="card" style="width: 18rem;">
+          <img src="images/feketekajmán.jpg" class="cardkepek card-img-top" alt="A fekete kajmán">
+          <div class="card-body">
+            <h2>A fekete kajmán</h2>
+            <p class="card-text">A fekete kajmán is krokodil, a dél-amerikai esőerdők lakója. A kíméletlen irtás miatt
+              természetes élőhelyeiről csaknem teljesen eltűnt, ezért fokozott védelem alatt áll.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-xl-4 col-xxl-3 col-md-6 col-sm-12">
+        <div class="card" style="width: 18rem;">
+          <img src="images/madárpók2.jpg" class="cardkepek card-img-top" alt="A fekete kajmán">
+          <div class="card-body">
+            <h2>A madárpók</h2>
+            <p class="card-text">A madárpókok testét kitinszőrök borítják. A legnagyobbak átmérője kb. 20 cm.
+              Napjainkban egyes fajaik házi kedvencekké váltak.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+  <button onclick="topFunction()" id="myBtn" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+  </svg></button>
       <!-- container -->
-   </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-  </body>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"></script>
+      <script src="forróöv.js"></script>
+</body>
+
 </html>
