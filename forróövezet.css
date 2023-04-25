@@ -34,3 +34,19 @@ p {
   #myBtn:hover {
     background-color: #49b29b;
   }
+  .elsocard {
+    height: 40rem;
+  }
+  table {
+    border: 3px solid black !important;
+    width: 50% !important;
+  }
+  table td {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 2px solid black;
+  }
+  table th {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
