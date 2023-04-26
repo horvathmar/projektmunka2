@@ -50,3 +50,11 @@ p {
     border-left: 1px solid black;
     border-right: 1px solid black;
   }
+  .carouselkepek {
+    text-align: center;
+  }
+  body {
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
