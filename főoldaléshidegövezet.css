@@ -1,0 +1,28 @@
+img:hover {
+    transform:scale(1.05) ;
+    transition-duration: 0.1s;
+     
+}
+
+img {
+    background-color:darkgreen ;
+    margin-left: 50px;
+}
+
+.fold {
+    margin-top: 10px;
+margin-left: 100px;
+    
+    
+   
+   
+    width: 500px;
+    }
+
+    .foldjobb {
+        margin-right: 100px;
+        width: 550px;
+    }
+
+
+    
