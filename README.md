@@ -1,1 +1,1 @@
-# projektmunka2 ujsag
+# projektmunka2 Éghajlati övezetek
