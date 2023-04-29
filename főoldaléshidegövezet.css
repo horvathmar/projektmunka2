@@ -1,8 +1,4 @@
-img:hover {
-    transform:scale(1.05) ;
-    transition-duration: 0.1s;
-     
-}
+
 
  .gomb {
     background-color: darkgreen;
@@ -15,7 +11,19 @@ img:hover {
 }
 
 .nagykep {
-    padding: 50px;
+    padding: 75px;
+    
 }
   
-    
+.nagykep1 {
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 50px;
+}
+
+.nagykep2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
