@@ -14,11 +14,12 @@
     padding: 75px;
     
 }
-  
+
 .nagykep1 {
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .nagykep2 {
@@ -30,4 +31,10 @@
 
 .zold {
     background-color:green ;
+    
+}
+
+
+.fold {
+    border: 5px solid darkblue;
 }
