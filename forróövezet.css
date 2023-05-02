@@ -1,3 +1,6 @@
+body {
+  background-color:rgb(255, 247, 212) !important;
+}
 p {
     text-align: justify;
     font-size: 16px;
@@ -14,6 +17,23 @@ p {
 .card {
     height: 500px !important;
     margin: 50px 0;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    overflow: hidden;
+}
+.card:hover {
+  width: 150%;
+  transition: ease-in-out 0.2s;
+  scale: 110%;
+}
+.vonal {
+  border: 5px solid black !important;
+}
+.card-body {
+  background-color: rgb(252, 246, 223);
+
 }
 #myBtn {
     display: none; 
@@ -53,8 +73,21 @@ p {
   .carouselkepek {
     text-align: center;
   }
-  body {
-    
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
+.navbar {
+  background-color: rgb(252, 246, 223);
+  margin-bottom: 10px;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.dropdown-menu {
+  background-color: rgb(252, 246, 223) !important;
+}
+
+.dropdown-menu a:active {
+  background-color: khaki;
+  color: black;
+}
+.dropdown-menu a:hover {
+  background-color: khaki;
+}
