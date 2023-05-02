@@ -80,3 +80,14 @@ p {
   border-left: 2px solid black;
   border-right: 2px solid black;
 }
+.dropdown-menu {
+  background-color: rgb(252, 246, 223) !important;
+}
+
+.dropdown-menu a:active {
+  background-color: khaki;
+  color: black;
+}
+.dropdown-menu a:hover {
+  background-color: khaki;
+}
