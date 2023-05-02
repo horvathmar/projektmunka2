@@ -28,7 +28,7 @@ p {
   transition: ease-in-out 0.2s;
   scale: 110%;
 }
-hr {
+.vonal {
   border: 5px solid black !important;
 }
 .card-body {
