@@ -91,3 +91,10 @@ p {
 .dropdown-menu a:hover {
   background-color: khaki;
 }
+.active {
+  color: rgb(197, 175, 76) !important;
+}
+.navbar a:hover {
+  transition: ease-in-out 0.2s;
+  scale: 110%;
+}
