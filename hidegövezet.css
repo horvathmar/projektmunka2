@@ -74,6 +74,11 @@
 
   .pehely {
     width: 500px;
-    justify-content: center;
-    color: aliceblue;
+  
+  }
+
+  .penguin {
+    padding-top: 20px;
+    width: 500px;
+    margin-right: 50px;
   }
