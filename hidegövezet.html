@@ -5,36 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hideg övezet</title>
     <link rel="shortcut icon" href="https://2.bp.blogspot.com/-T5mQexFQ2_Y/WQByf-5-vxI/AAAAAAAAAuM/io1GWSYngsQC4F3G362wYC1CrR2SEIfPwCLcB/s1600/foldgomb01.png" type="image/x-icon">
-   <link rel="stylesheet" href="főoldaléshidegövezet.css">
+   <link rel="stylesheet" href="hidegövezet.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   </head>
   <body class="hatter ">
-    <div id="carouselExampleIndicators" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    
+      <nav class="navbar navbar-expand-lg  bg-transparent">
+        <div class="container-fluid ">
+          <img width="50px" class="me-4 mt-2" src="https://2.bp.blogspot.com/-T5mQexFQ2_Y/WQByf-5-vxI/AAAAAAAAAuM/io1GWSYngsQC4F3G362wYC1CrR2SEIfPwCLcB/s1600/foldgomb01.png" alt="">
+          <a class="navbar-brand text-light opacity-100 fw-bolder border-5 border border-dark rounded-pill p-2 bg-success"  href="index.html">ÉGHAJLATI ÖVEZETEK</a>
+          <button class="navbar-toggler opacity-100" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link text-dark fs-5 rounded-pill text-center pe-3 ps-3 ms-3 me-3 border border-5 mt-2 border-dark" aria-current="page" href="#">Az Északi Sark</a>
+              <a class="nav-link text-dark fs-5 rounded-pill  text-center pe-3 ps-3 ms-3 me-3 border border-5 mt-2 border-dark" href="délisark.html">A Déli Sark</a>
+              <a class="nav-link text-light move fs-5 rounded-pill text-center bg-danger pe-3 ps-3 ms-3 me-3 border border-5 mt-2 border-dark" aria-current="page" href="forróövezet.html">Forró övezet</a>
+              <a class="nav-link text-light move fs-5 rounded-pill  text-center bg-warning pe-3 ps-3 ms-3 me-3 border border-5 mt-2 border-dark" href="mersekelt.html">Mérsékelt övezet</a>
+              <a class="nav-link text-light move fs-5 rounded-pill text-center bg-info pe-3 ps-3 ms-3 me-3 border border-5 mt-2 border-dark" href="hidegövezet.html">Hideg övezet</a>
+      
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container text-center">
+      <video id="background-video" autoplay loop muted>
+        <source src="video/northpole.mp4" type="video/mp4">
+      </video>
+      <div>
+        <h1 class="text-white iceberg">AZ ÉSZAKI SARK</h1>
+        <ion-icon name="snow-outline"> <img class="fs-3 pehely" src="images/iceberglogo2(1).png" alt=""> </ion-icon>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/eszaki-feny.png " class="d-block w-100 aurora" alt="...">
+      
+      
+      <main>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/aurora.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/jegyhegy.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/jeghegy.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="carousel-item">
-          <img src="images/jeghegy.png" class="d-block w-100 aurora" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="images/jeghegy2.png" class="d-block w-100 aurora" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aliquid optio minima, et quo aliquam veritatis quod illo commodi voluptas numquam, dolores fuga aspernatur officiis quidem. Consectetur ea nostrum rem!</p>
+        <p>Consequuntur nam, eaque autem sapiente fuga repellendus veritatis? Eligendi eius soluta hic nam nisi autem! Consequuntur modi ex cum nulla unde velit, esse, consequatur, obcaecati qui libero omnis fugiat incidunt!</p>
+        <p>Tempore ab atque magni vitae optio enim quidem, exercitationem voluptatibus aspernatur ipsa iusto, quos culpa! Deserunt obcaecati voluptatem pariatur omnis non corporis, similique libero culpa quam, sint cumque reiciendis quia.</p>
+        <p>Omnis ea maiores, id ut laudantium nostrum itaque excepturi qui nesciunt, recusandae dolorum voluptatibus sit totam dolor, nisi quos maxime illo! Itaque, molestias numquam aperiam exercitationem natus sunt vero ut!</p>
+        <p>Eaque cumque nam soluta fuga repellendus illum, iusto earum voluptatibus ipsa, sapiente quod vitae? Maiores, dicta modi harum suscipit quod deserunt culpa blanditiis earum, corporis, ea dolore cum quos error!</p>
+        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+      </main>
     </div>
+    <button onclick="topFunction()" id="myBtn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+    </svg></button>
+    <script src="forróöv.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 </html>
