@@ -115,3 +115,8 @@
     text-shadow: 3px 3px 5px #000d55; 
     margin-top: 200px;
   }
+
+
+  .bottom {
+    border-bottom: 10px double white
+  }
