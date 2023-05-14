@@ -14,7 +14,7 @@
   /* page content */
   
   body {
-    font-family: Trebuchet MS;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
   }
@@ -23,25 +23,42 @@
     color: white;
     font-weight: bold;
     text-align: center;
+    border-bottom: 10px double white;
+   
+    
   }
   
-  h1 {
-    font-size: 6rem;
-    margin-top: 30vh; 
-  }
+
   
-  h2 { font-size: 3rem; }
+
   
   
   
   main {
-    background-color: lightblue;
-    font-size: 2rem;
-    margin-top: 900px;
-    padding: 10px;
+    
+    font-size: 20px;
+    margin-top: 600px;
+    padding: 15px;
     position: relative;
+    margin-bottom: 100px;
+   
+    border-radius: 40px;
+    color: white;
+    
+    
   }
 
+  .mainp  {
+    border: 5px solid rgb(235, 230, 230);
+   border-radius: 0.4cm;
+   background-image: url(images/kekhatter.png);
+   margin:10px;
+   text-align: center;
+   padding:20px;
+   font-size: 20px;
+   color: white;
+   text-shadow: 2px 2px 10px black ;
+  }
 
   #myBtn {
     display: none; 
@@ -81,4 +98,20 @@
     padding-top: 20px;
     width: 500px;
     margin-right: 50px;
+  }
+
+
+  .neon
+  {
+  background-color: chartreuse;
+  background-image: none;
+  }
+
+ 
+   h1 {
+    
+    text-align: center;
+    font-size:40px;
+    text-shadow: 3px 3px 5px #000d55; 
+    margin-top: 200px;
   }
