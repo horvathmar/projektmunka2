@@ -98,11 +98,3 @@ p {
   transition: ease-in-out 0.2s;
   scale: 110%;
 }
-video {
-  width: 500px;
-}
-video:hover {
-  transition: ease-in-out 0.2s;
-  scale: 150%;
-  margin-top: 100px;
-}
